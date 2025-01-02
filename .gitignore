@@ -1,4 +1,49 @@
-node_modules/
-.env
+# Salesforce cache
+.sf/
+.sfdx/
+.localdevserver/
+
+# VS Code IDE
 .vscode/
+
+# Environment files
+.env
+
+# Logs
 *.log
+
+# MacOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Node.js dependencies
+node_modules/
+
+# Salesforce deployment artifacts
+.salesforce
+
+# Retrieved source files
+mdapi/
+
+# Manifest files
+package-lock.json
+yarn.lock
+
+# SFDX deployment status
+deployStatus.json
+
+# Apex coverage
+.apexTestResults
+coverage/
+.nyc_output/
+
+# Other IDEs and editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
